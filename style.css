@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#logo {
+  padding-top: 5px;
+}
+
+#logoImage {
+  width: 40px;
+  height: 40px;
+}
+
+#slide1 {
+  background: url("images/canyon.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+#slide2 {
+  background-size: cover;
+}
+
+.parallax {
+  background: url("images/meadow.jpg") fixed 100%;
+  background-size: cover;
+}
+
+.parallax-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#slide3 {
+  background: url("images/house1.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+#slide4 {
+  background: url("images/lake.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+#slide5 {
+  background: url("images/fall1.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+#slide6 {
+  background: url("images/house2.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+
+.clear {
+  clear: both;
+}
+
+#mainDivGallery {
+  padding: 20px;
+  margin-top: 50px;
+  background-image: url("images/black_wallpaper_sujoy_big_resized.jpg");
+}
+
+#imageWrapper {
+  width: 100%;
+}
+
+#spanImage {
+}
+
+.imageThumbnails {
+  width: 300px;
+  height: 225px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  object-fit: cover; /* Do not scale the image */
+  object-position: center;
+}
+
+.imageThumbnails:hover {
+  cursor: pointer;
+}
+
+#popBackground {
+  position: fixed;
+  width: 100%;
+  height: 900px;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.9;
+  z-index: 900;
+  cursor: pointer;
+  display: none;
+}
+
+.popImage {
+  position: fixed;
+  z-index: 1000;
+  display: none;
+
+}
+
+#mainDivAlbums {
+    background-image: url("images/black_wallpaper_sujoy_big_resized.jpg");
+    padding-top: 70px;
+
+}
+
+.cover {
+  padding: 10px;
+  background-color: #ccc;
+  height: 220px;
+  margin: 20px 20px;
+}
+
+#landscapes {
+  background-image: url(images/landscapes/fall1.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+#streets {
+  background-image: url(images/fall1.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+#people {
+  background-image: url(images/fall1.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+#architecture {
+  background-image: url(images/fall1.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+#mainDivContact {
+  background-image: url("images/meadow.jpg");
+  background-size: cover;
+}
